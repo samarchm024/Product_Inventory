@@ -75,6 +75,11 @@ const ProductDetail = () => {
           Stock: {product.stock}
         </p>
 
+        
+        <p className="mb-2">
+          Status: {product.status}
+        </p>
+
         <p className="mb-4">
           {product.description}
         </p>
